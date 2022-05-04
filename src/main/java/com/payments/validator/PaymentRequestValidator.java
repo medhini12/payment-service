@@ -6,6 +6,7 @@
  */
 
 package com.payments.validator;
+import org.springframework.stereotype.Component;
 
 import com.payments.model.PaymentRequest;
 
@@ -13,6 +14,7 @@ import com.payments.model.PaymentRequest;
  * @author Tumukunta
  *
  */
+@Component
 public class PaymentRequestValidator {
 
 	public void validateRequest(PaymentRequest paymentRequest) {
